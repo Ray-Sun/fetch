@@ -1,0 +1,29 @@
+{
+  "name": "fetch",
+  "version": "0.1.0",
+  "description": "fetch bargain data from different platforms",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:rs-tools/bargain/fetch.git"
+  },
+  "author": "Ray Sun",
+  "license": "ISC",
+  "dependencies": {
+    "@types/xml2js": "^0.4.3",
+    "bargain-dao": "file:../dao",
+    "cheerio": "^1.0.0-rc.2",
+    "node-fetch": "^2.3.0",
+    "rss-parser": "^3.7.0",
+    "tools-util": "file:../../util",
+    "typescript": "^3.3.4000"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.11",
+    "@types/node-fetch": "^2.1.7"
+  }
+}
